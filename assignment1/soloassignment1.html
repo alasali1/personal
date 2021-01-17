@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>soloassignment1</title>
+        <link rel="stylesheet" type="text/css" href=css/styles.css>
+        
+    </head>
+    <body>
+        <script>
+            var main1 = document.getElementById("mane");
+            //tell button what to do in JS
+            document.getElementById("button").addEventListener("click",changeColor);
+            //function to change main background color to green
+            function changeColor(){
+                main1.style.backgroundColor("green");
+
+                //function to make an HTTP GET request I still have almost no Idea how to do this.
+                var xmlHttp = new XMLHTTPRequest();
+                xmlHttp.open()
+            }
+        </script>
+
+        <main id="mane">
+            <button id ="button">change color</button>
+        </main>
+        <aside id="side">
+            <button id ="button2">GET button</button>
+        </aside>
+    
+    </body>
+</html>
