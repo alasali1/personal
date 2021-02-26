@@ -1,6 +1,6 @@
 const express = require("express");
 const messagesRouter = express.Router();
-const port = 3000;
+const port = 4000;
 
 //This represents an active chat between two users
 const chats = [
@@ -31,8 +31,9 @@ messagesRouter.route('/:id')
      res.sendStatus(505);
  });
 
- app.listen(port, () => {
+ messagesRouter.listen(port, () => {
      console.log('Example app listening at http://localhost:$(port)');
  });
     
     module.exports = messagesRouter;
+
