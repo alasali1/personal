@@ -6,7 +6,7 @@ const port = 4000;
 const chats = [
     {id: "1", user1: "Bill", user2: "Bob"}
 ]
-//This represents the messages within the chat
+//This representsthe messages within the chat
 const messages = [
     {from: "Bill", to:"Bob", message:"Hello"}
 ]
